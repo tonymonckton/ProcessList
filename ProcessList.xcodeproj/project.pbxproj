@@ -25,6 +25,10 @@
 /* Begin PBXFileReference section */
 		B3D0032224080AB300356687 /* ProcessList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProcessList; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3D0032524080AB300356687 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B3D0032D24080AF200356687 /* Process.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Process.hpp; sourceTree = "<group>"; };
+		B3D0032E24080AF200356687 /* ProcessList.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ProcessList.hpp; sourceTree = "<group>"; };
+		B3D0032F24080AF200356687 /* eProcessStatus.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = eProcessStatus.hpp; sourceTree = "<group>"; };
+		B3D0033024080AF200356687 /* ProcessAdstractBaseClass.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ProcessAdstractBaseClass.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,10 @@
 			isa = PBXGroup;
 			children = (
 				B3D0032524080AB300356687 /* main.cpp */,
+				B3D0032F24080AF200356687 /* eProcessStatus.hpp */,
+				B3D0033024080AF200356687 /* ProcessAdstractBaseClass.hpp */,
+				B3D0032D24080AF200356687 /* Process.hpp */,
+				B3D0032E24080AF200356687 /* ProcessList.hpp */,
 			);
 			path = ProcessList;
 			sourceTree = "<group>";
