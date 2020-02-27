@@ -28,8 +28,17 @@ ProcessClass::ProcessClass(float duration) : Process(duration) {};
 //---------------------
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    // example Usage of Process.
+    ProcessList processList = ProcessList("Main Process");
+    
+    processList += (Process*) new ProcessClass("processClass1");    // custom process
+    processList += new Process("process2");
+    processList += new Process("process3");
+    
+    while (processList.execute(0.1f)) {
+    }
+
+    
     return 0;
 }
 
