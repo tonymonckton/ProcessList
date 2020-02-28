@@ -25,7 +25,7 @@ public:
 };
 ```
 
-example for to execute ProcessorList
+execute ProcessorList example:
 
 ```sh
     ProcessList processList = ProcessList("Main Process");
