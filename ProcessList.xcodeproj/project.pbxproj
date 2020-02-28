@@ -29,6 +29,7 @@
 		B3D0032E24080AF200356687 /* ProcessList.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ProcessList.hpp; sourceTree = "<group>"; };
 		B3D0032F24080AF200356687 /* eProcessStatus.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = eProcessStatus.hpp; sourceTree = "<group>"; };
 		B3D0033024080AF200356687 /* ProcessAdstractBaseClass.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ProcessAdstractBaseClass.hpp; sourceTree = "<group>"; };
+		B3ED4ED524093E8F0019F3A3 /* ProcessCustomClass.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ProcessCustomClass.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				B3D0032524080AB300356687 /* main.cpp */,
+				B3ED4ED524093E8F0019F3A3 /* ProcessCustomClass.hpp */,
 				B3D0032F24080AF200356687 /* eProcessStatus.hpp */,
 				B3D0033024080AF200356687 /* ProcessAdstractBaseClass.hpp */,
 				B3D0032D24080AF200356687 /* Process.hpp */,
